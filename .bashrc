@@ -122,6 +122,6 @@ commit() {
 alias nixconf='sudo nvim /etc/nixos/configuration.nix'
 alias nixupdate='nix-channel --update'
 alias nixupgrade='sudo nixos-rebuild switch --upgrade'
-alias nixrebuild='sudo nixos-rebuild switch'
+alias nixreload='sudo nixos-rebuild switch'
 
 eval "$(starship init bash)"
